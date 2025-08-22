@@ -1,0 +1,222 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    background-color: black;
+}
+
+.ContactForm {
+    /* overflow: hidden; */
+    display: flex;
+    /* height: calc(100% - 20px); */
+    width: 100%;
+    height: 94dvh;
+    flex-direction: column;
+}
+
+
+.ContactForm h1 {
+    font-size: 53px;
+    font-weight: bold;
+    text-decoration: underline;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    color: crimson;
+}
+
+.Form form {
+    background-color: rgb(255, 255, 255);
+    /* border: 2px solid rgb(120, 118, 118); */
+    border-radius: 19px;
+    height: 78dvh;
+    width: 95vh;
+    display: flex;
+    top: 14px;
+    margin: auto;
+    position: relative;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 11px;
+}
+
+.form-group {
+    position: relative;
+    top: -10px;
+
+    padding: 7px;
+}
+
+div a {
+    text-decoration: none;
+}
+
+.Form div input {
+    position: relative;
+    margin: auto 8px;
+    display: flex;
+    padding: 9px 179px;
+    font-weight: bold;
+    width: 220px;
+    height: 20px;
+    background-color: rgba(255, 255, 255, 0.2);
+    border: 0;
+    border-bottom: 2px solid rgba(23, 23, 23, 0.5);
+    /* border: 2px solid rgba(23, 23, 23, 0.262); */
+    /* border-radius: 4px; */
+
+}
+
+.Form div input:active {
+    border: 0;
+    border-bottom: 2px solid rgba(23, 23, 23, 0.5);
+}
+
+.Form div textarea {
+    position: relative;
+    margin: auto 8px;
+    display: flex;
+    width: 200px;
+    height: 134px;
+    padding: 5px 30px;
+    background-color: rgba(255, 255, 255, 0.2);
+    border: 2px solid rgba(23, 23, 23, 0.5);
+    border-radius: 8px;
+    border-radius: 8px;
+    right: 158px;
+    font-weight: bold;
+}
+
+.Form div label {
+    position: relative;
+    width: 700px;
+    padding: 10px;
+    top: 26px;
+    font-weight: bold;
+}
+
+.btn {
+    height: 49px;
+    font-size: 17px;
+    width: 159px;
+    position: relative;
+    bottom: 3px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    cursor: pointer;
+    background-color: crimson;
+    border: 0;
+    font-weight: bold;
+    color: white;
+    border-radius: 4px;
+}
+
+
+.btn:hover {
+    background-color: rgb(191, 8, 44);
+    border: 0;
+}
+
+.btn:active {
+    transform: scale(0.98);
+}
+
+@media screen and (max-width:1186px) and (min-width:810px) {
+    .ContactForm h1 {
+        font-size: 32px;
+    }
+
+    .Form form {
+        height: 78dvh;
+        width: 63dvh;
+        padding: 0px;
+        top: -16px;
+    }
+
+    .Form div input {
+        padding: 3px 54px;
+        width: 220px;
+        top: 10px;
+        font-size: 14px;
+    }
+
+    .Form div label {
+        padding: 10px;
+        top: 10px;
+        font-weight: bold;
+        font-size: 17px;
+    }
+
+    .Form div textarea {
+        top: -9px;
+        font-size: 17px;
+        right: 72px;
+        width: 126px;
+        height: 112px;
+    }
+
+    .btn {
+        height: 37px;
+        width: 112px;
+        bottom: 8px;
+        font-size: 20px;
+
+    }
+}
+
+@media screen and (max-width:811px) {
+    .ContactForm h1 {
+        font-size: 32px;
+        margin-top: 45px;
+    }
+
+    .Form form {
+        height: 60dvh;
+        width: 38dvh;
+        padding: 0px;
+        top: -62px;
+    }
+
+    .Form div input {
+        padding: 3px 9px;
+        width: 220px;
+        top: 21px;
+        font-size: 13px;
+    }
+
+    .Form div label {
+        padding: 11px;
+        top: 22px;
+        font-weight: bold;
+        font-size: 16px;
+    }
+
+    .Form div textarea {
+        top: 0px;
+        font-size: 16px;
+        right: 39px;
+        width: 93px;
+        height: 83px;
+    }
+
+    .btn {
+        height: 37px;
+        width: 112px;
+        bottom: 10px;
+        font-size: 17px;
+        font-weight: bold;
+        left: 0px;
+    }
+
+    .ContactForm {
+        height: 89dvh;
+    }
+}
